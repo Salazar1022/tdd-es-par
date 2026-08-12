@@ -21,3 +21,6 @@ class TestEsMultiplo(unittest.TestCase):
 
     def test_cero_2_multiplo_de(self):
         self.assertFalse(es_multiplo_de(20, 0))
+
+if __name__ == "__main__":
+    unittest.main()

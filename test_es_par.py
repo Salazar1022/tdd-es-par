@@ -6,8 +6,8 @@ class TestEsPar(unittest.TestCase):
     def test_4_es_par(self):
         self.assertTrue(es_par(4)) # 4 Debería de ser par
     
-    def test_7_es_par(self):
-        self.assertFalse(es_par(7))
+    def test_9_es_par(self):
+        self.assertFalse(es_par(9))
     
     def test_0_es_par(self):
         self.assertTrue(es_par(0))
